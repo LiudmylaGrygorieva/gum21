@@ -1,0 +1,146 @@
+:root {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1300px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.wrap {
+    height: 70px;
+    width: 1300px;
+    background-color: #F4A460;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    vertical-align: auto;
+    padding: 5px 10px;
+}
+.menu {
+    height: 50px;
+    width: 1300px;
+   background-color: #4682B4;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    width: 125px;
+}
+
+.menu ul li:hover a {
+    background-color: #008080;
+}
+
+.menu ul::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.container {
+    height: 530px;
+    width: 1300px;
+    position: relative;
+}
+
+.box {
+    float: left; 
+    border: 0;
+    margin: 0;
+}
+
+.one {
+    width: 260px;
+    height: 530px;
+    background-color: #EE82EE;
+}
+
+.second {
+    width: 780px;
+    height: 530px;
+}
+
+.third {
+    width: 260px;
+    height: 530px;
+    background-color: #9ACD32;
+}
+
+.item img {
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    clear: right;
+}
+
+.item p {
+    margin-left: 125px;
+}
+
+.item {
+    height: 250px;
+    width: 360px;
+    display: inline-block ;
+    overflow: visible;
+    font-size: medium;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    box-sizing: border-box;
+    margin: 10px;
+}
+   
+
+
+.footer-site {
+    height: 120px;
+    width: 1300px;
+    background-color: #008080;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-site li {
+    display: inline-block;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.footer-site a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.fa {
+    font-size: 20px;
+    color: wheat;
+}
+.sosial li a:hover, .footer-site a:hover {
+    color: rebeccapurple;
+}
